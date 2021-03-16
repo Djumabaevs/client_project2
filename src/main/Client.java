@@ -23,6 +23,7 @@ public class Client {
                 if(!echoString.equals("exit")) {
                     response = echoes.readLine();
                     System.out.println(response);
+                    System.out.println("yes");
                 }
             }
             while(!echoString.equals("exit"));
